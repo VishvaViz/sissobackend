@@ -1,0 +1,28 @@
+.Role-selection-section {
+  background-image: linear-gradient(to bottom right, #83e1fa, #278ae8);
+  /* display: flex;
+    flex-direction: column; */
+  height: 100vh;
+  width: 100%;
+}
+
+.SvgHover:hover path {
+  fill: white !important;
+}
+
+.SvgHover:hover h3 {
+  color: white;
+}
+.SvgHover:hover p {
+  color: white;
+}
+@media (max-width: 650px) {
+  .Help {
+    display: none;
+  }
+}
+@media (max-width: 450px) {
+  .Role-selection-section {
+    height: 120vh;
+  }
+}
